@@ -45,7 +45,7 @@ return;
             .addField(' » Message : ', args)
             .setColor('#ff0000')
             // m.send([${m}]);
-            m.send(${m},{embed: bc});
+            m.send(${m},{embed: +bc});
         });
     }
     } else {
