@@ -25,7 +25,7 @@ const prefix = "";
 ////////////////////////
 
 client.on('message', message => {
-var prefix = "f!";
+var prefix = ".";
 
     if (message.author.id === client.user.id) return;
     if (message.guild) {
